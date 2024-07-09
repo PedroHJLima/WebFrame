@@ -1,0 +1,112 @@
+#logo{
+  width: 100px;
+  display: inline-block;
+}
+
+#cabecalho{
+  display: flex;
+  align-items: center;
+}
+
+#divBusca{
+  margin:auto;
+  position: relative;
+  
+}
+
+#txtBusca{
+  background-color: #ffffff; /* Cor de fundo do formulário */
+  border-radius: 25px; /* Cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 5px 20px; /* Espaçamento interno */
+  flex-grow: 1;
+  width: 500px;
+}
+
+#btnBusca{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px; /* Cantos arredondados para o botão */
+  background-color: #007BFF; /* Cor de fundo do botão */
+  color: #ffffff; /* Cor do texto do botão */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor em forma de mão */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+#menu-h{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(102, 102, 102);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#menu-h li{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu-h li a{
+    color: #FFF;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  #botoes{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(28, 127, 241);
+  }
+
+  .btn{
+    margin: 10px, 0px;
+    width: 100%;
+    border: 1px solid #1b1b1b; /* borda sólida de 1px de espessura, cor azul */  
+  }
+
+  #corpos{
+    display: block;
+  }
+
+  footer{
+    height: 300px;
+    background-color: rgb(63, 62, 62);
+    margin-top: 70px;
+  }

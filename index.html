@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campanha pet</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <img id="logo" src="img/icon.png" alt="Logo">
+
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <button id="btnBusca">Buscar</button>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <nav>
+            <ul id="menu-h">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gatos</a></li>
+                <li><a href="#">Cachorros</a></li>
+                <li><a href="#">Outros pets</a></li>
+                <li><a href="#">Produtos e servicos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!-- Carrossel -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="https://via.placeholder.com/800x400?text=Imagem+1" class="d-block w-100" alt="Imagem 1">
+            </div>
+            <div class="carousel-item">
+            <img src="https://via.placeholder.com/800x400?text=Imagem+2" class="d-block w-100" alt="Imagem 2">
+            </div>
+            <div class="carousel-item">
+            <img src="https://via.placeholder.com/800x400?text=Imagem+3" class="d-block w-100" alt="Imagem 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+        </div>
+    </div>
+
+
+
+
+     <!-- Accordion -->
+     <div class="container mt-5">
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="btn-group btn-group-horizontal">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Consultar Agenda
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Exames
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Cuidados
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <!-- card 1 -->
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <!-- corpo -->
+                    <div class="card-body">
+                        Corpo de texto do botão 1
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <!-- card 2 -->
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <!-- corpo -->
+                    <div class="card-body">
+                        Corpo de texto do botão 2
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card">
+                <!-- card 3 -->
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <!-- corpo -->
+                    <div class="card-body">
+                        Corpo de texto do botão 3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <footer>
+        
+    </footer>
+
+
+      <script>
+        // Fechar outros collapse ao abrir um novo
+        $(document).ready(function() {
+            $('#botoes .btn').on('click', function () {
+                var target = $(this).data('target');
+                $('.collapse').not(target).collapse('hide');
+            });
+        });
+    </script>
+
+  <!-- Inclua o JavaScript do Bootstrap (opcional, se necessário) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
