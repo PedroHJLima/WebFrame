@@ -23,6 +23,11 @@
   width: 500px;
 }
 
+#acordeao{
+  display:flex;
+  justify-content: center;
+}
+
 #btnBusca{
   border: none;
   padding: 10px 20px;
@@ -109,4 +114,44 @@
     height: 300px;
     background-color: rgb(63, 62, 62);
     margin-top: 70px;
+    background-color: #343a40; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto */
   }
+
+
+footer .form-inline {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+footer .form-control {
+    
+
+    border-radius: 20px; /* Cantos arredondados para o botão */
+    padding: 10px 20px; /* Ajuste o padding para o botão */
+}
+
+footer .btn-primary {
+  border-radius: 20px; /* Cantos arredondados para o campo de entrada */
+  margin-right: 10px; /* Espaço entre o campo de entrada e o botão */
+}
+
+footer p {
+    font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+#botaoNews{
+  width: 150px;
+  height: 60px;
+}
+
+#email{
+  height: 60px;
+  width: 400px;
+  margin-right: 10px;
+}
+
+.container{
+  
+}
