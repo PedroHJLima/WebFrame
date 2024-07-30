@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos e Serviços</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <img id="logo" src="img/icon.png" alt="Logo">
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <button id="btnBusca">Buscar</button>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <nav>
+            <ul id="menu-h">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Gatos</a></li>
+                <li><a href="#">Cachorros</a></li>
+                <li><a href="#">Outros pets</a></li>
+                <li><a href="#">Produtos e serviços</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Produtos e Serviços</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/produtos/catFood.png" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ração para Gatos</h5>
+                        <p class="card-text">R$ 25,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/produtos/dogFood.png" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ração para Cachorros</h5>
+                        <p class="card-text">R$ 30,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/produtos/catToy.png" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo para Gatos</h5>
+                        <p class="card-text">R$ 15,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/produtos/dogToy.png" class="card-img-top" alt="Produto 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo para Cachorros</h5>
+                        <p class="card-text">R$ 20,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/produtos/catBed.png" class="card-img-top" alt="Produto 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Cama para Gatos</h5>
+                        <p class="card-text">R$ 50,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/produtos/dogHouse.png" class="card-img-top" alt="Produto 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa para Cachorros</h5>
+                        <p class="card-text">R$ 60,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footContainer">
+            <div class="row">
+                <!-- Newsletter -->
+                <div class="col-md-12 newsletter">
+                    <h2>Inscreva-se na nossa Newsletter</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-9">
+                                <input type="email" class="form-control" id="newsletterEmail" placeholder="Digite seu email">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <button type="submit" class="btn btn-primary btn-block">Inscrever</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Opiniões Positivas -->
+                <div class="opinion">
+                    <img class="clienteIcon" src="img/clientes/velha.png" alt="Cliente">
+                    <h3>Maravilhosa</h3>
+                    <p>"A clínica é maravilhosa! Meu pet sempre recebe o melhor atendimento."</p>
+                    <p>- Luciana Santos</p>
+                </div>
+                <div class="opinion">
+                    <img class="clienteIcon" src="img/clientes/velho.png" alt="Cliente">
+                    <h3>Adorei</h3>
+                    <p>"Equipe super atenciosa e profissionais de alta qualidade."</p>
+                    <p>- Ivonácio Melo</p>
+                </div>
+                <div class="opinion">
+                    <img class="clienteIcon" src="img/clientes/mulher.png" alt="Cliente">
+                    <h3>Recomendo</h3>
+                    <p>"Recomendo a todos que querem cuidar bem dos seus pets."</p>
+                    <p>- Claudia Leite</p>
+                </div>
+                <div class="opinion">
+                    <img class="clienteIcon" src="img/clientes/papagaioCliente.png" alt="Cliente">
+                    <h3>Muito bom</h3>
+                    <p>"O melhor que já visitei."</p>
+                    <p>- Cléber Arroz</p>
+                </div>
+            </div>
+
+            <!-- Links Úteis e Redes Sociais -->
+            <div class="row links-row" id="footerContainer">
+                <div class="footerAndLinks links">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="tel:+5551999999999">Telefone: (51) 99999-9999</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <nav>
+                        <ul class="footerAndLinks" id="navBottom">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Gatos</a></li>
+                            <li><a href="#">Cachorros</a></li>
+                            <li><a href="#">Outros pets</a></li>
+                            <li><a href="produtos.html">Produtos e servicos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footerAndLinks social-icons">
+                    <h4>Redes Sociais</h4>
+                    <a href="https://mail.google.com/"><img src="img/socials/email.png" alt="#"></a>
+                    <a href="https://www.facebook.com"><img src="img/socials/facebook.png" alt="#"></a>
+                    <a href="https://www.tiktok.com"><img src="img/socials/tiktok.png" alt="#"></a>
+                    <a href="https://www.twitter.com"><img src="img/socials/twitter.png" alt="#"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

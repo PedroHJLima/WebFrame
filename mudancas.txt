@@ -1,0 +1,20 @@
+
+
+cuidados usar background position como center e bottom para puxar o galo
+em exames ver formas de deixar mais bonitos os links
+ajustar o tamanho da fonte do rodapé e alguns efeitos(mudar de cor com hover)
+
+
+
+feito:
+desgrudar a logo da esquerda (margin bottom left e top)-FEITO
+botar links nas redes sociais;- FEITO
+quebrar mais rápido as imagens - FEITO
+usar 4 opinioes pra ficar de 2 em 2 em tablets
+opiniao simples(simular textos reais e fotos)
+3 imagem descolada em exames (direita)
+criar uma página de produtos e serviços(uma vitrine)
+banner;consulta; barra de pesquisa; cuidados; exames; opiniao; rodapé;
+replicar o menu principal no rodapé;
+formulario de um lado e mapa do outro em telas grandes
+o botão de enviar está grande demais(consulta)
